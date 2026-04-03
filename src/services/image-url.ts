@@ -1,5 +1,7 @@
 
 const getCroppedImageUrl = (url:string) => {
+    if (!url) return ''
+
     const target = 'media/'
     const index = url.indexOf(target) + target.length;
         // Pierwsza cz. linku  +  nasz dodatek  + dalsza cz. linku
