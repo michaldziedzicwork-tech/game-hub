@@ -43,7 +43,7 @@ function App() {
           />
         </GridItem>
       </Show>
-      <GridItem area="main" marginX={{ sm: 5}}>
+      <GridItem area="main" marginX={{ xs: 3 ,sm: 5,}}>
         <GameHeading gameQuery={gameQuery} />
         <Flex marginBottom={5}>
           <Box marginRight={5}>
