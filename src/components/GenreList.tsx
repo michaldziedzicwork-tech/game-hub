@@ -8,7 +8,6 @@ import {
   List,
   ListItem,
   Spinner,
-  Text,
 } from "@chakra-ui/react";
 
 interface Props {
